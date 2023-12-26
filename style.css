@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    background-image: linear-gradient(to right, rgb(255, 0, 204) , rgb(28, 92, 228));
+    justify-content: space-around;
+}
+#stored_task{
+    background-color: #ffffff;
+    width: 50%;
+    border: 1px solid;
+    height: fit-content;
+}
+#header{
+    display: flex;  
+    justify-content: space-around;  
+    border-bottom: 1px solid;
+}
+#heading{
+    border-bottom: 1px solid;  
+}
+#heading p{
+    display: inline; 
+    font-size: 30px;}
+#delete{
+    margin-top: 30px;
+    height: 30px;
+    width: 10%;
+    color: red;
+    background-color: #ffffff;
+    border: 1px solid red;
+}
+.task_field{
+    
+    background-color: #ffffff;
+    width: 30%;
+}
+#task{
+    padding: 15%;
+
+}
+#new_task{
+    width: 80%;
+}
